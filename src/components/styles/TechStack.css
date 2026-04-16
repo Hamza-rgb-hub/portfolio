@@ -1,0 +1,7 @@
+@font-face {
+    font-family: clash Display;
+    src: url(/public/fonts/ClashDisplay_Complete/Fonts/TTF/);
+}
+.techstack h2{
+    font-family: clash Display;
+}

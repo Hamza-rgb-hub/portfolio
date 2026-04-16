@@ -1,0 +1,16 @@
+.work-image-in {
+  position: relative;
+  display: block;
+}
+
+.work-link {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.work-image-in:hover .work-link {
+  opacity: 1;
+}
