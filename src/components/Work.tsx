@@ -130,11 +130,11 @@ const Work = () => {
     {
       id: 1,
       number: "01",
-      title: "Portfolio Website",
-      category: "Web Development",
-      tools: "React, GSAP, TypeScript, Three.js",
-      image: "/images/pro1.png",
-      // link: "https://hamza-portfolio.vercel.app",
+      title: "Fragy E-commerce + AI recommendations",
+      category: "Full Stack MERN Project",
+      tools: "MongoDB, React.js, Express.js, Node.js",
+      image: "/projects/fragy.png",
+      link: "https://fragy.vercel.app",
     },
     {
       id: 2,
@@ -143,49 +143,53 @@ const Work = () => {
       category: "React.js & Tailwind CSS Project",
       tools: "React.js, Tailwind CSS, GSAP",
       image: "/images/k72.jpeg",
-      // link: "https://kk72.netlify.app/"
+      link: "https://kk72.netlify.app/"
     },
     {
       id: 3,
       number: "03",
-      title: "Creative Website",
-      category: "React.js & Tailwind CSS Project",
-      tools: "React.js, Tailwind CSS",
-      image: "/images/auto.jpeg",
-      link: "https://autocare0.netlify.app/",
+      title: "Foodify - Food Delivery Website (SaaS)",
+      category: "SaaS Project",
+      tools: "MongoDB, Express.js, React.js, Node.js",
+      image: "/projects/foodify.webp",
+      link: "https://foodify-flame.vercel.app/",
     },
     {
       id: 4,
       number: "04",
-      title: "E-Commerce Website",
-      category: "Web Application",
-      tools: "Next.js, TypeScript, Tailwind CSS",
-      image: "/images/sole.png",
+      title: "AutoCare - Car Detailing Website",
+      category: "React.js & Tailwind CSS Project",
+      tools: "React.js, Tailwind CSS, GSAP",
+      image: "/images/auto.jpeg",
+      link: "https://autocare0.netlify.app/"
     },
     {
       id: 5,
       number: "05",
-      title: "Fitness Website",
-      category: "UI / UX Design",
-      tools: "HTML, CSS, Bootstrap",
-      image: "/images/fit.jpeg",
+      title: "Portfolio Website",
+      category: "Personal Portfolio",
+      tools: "React, GSAP, Three.js TypeScript",
+      image: "/images/pro1.png",
+      link: "https://portfolio-seven-sigma-odqzi3ezlh.vercel.app/"
     },
-    // {
-    //   id: 6,
-    //   number: "06",
-    //   title: "DOUS Agency",
-    //   category: "FULL STACK APP",
-    //   tools: "HTML, CSS, JavaSript, Bootstrap",
-    //   image: "/images/dous.png",
-    // },
     {
-      id: 7,
-      number: "07",
-      title: "E-Commerce Website",
-      category: "MERN Project",
-      tools: "MongoDB, ExpressJS, ReactJS, NodeJS",
-      image: "/images/e-com.png",
+      id: 6,
+      number: "06",
+      title: "SoleStore - E-commerce Website",
+      category: "Full Stack Project",
+      tools: "Next.js, TypeScript, Tailwind CSS",
+      image: "/images/sole.png",
+      link: "https://solestore0.netlify.app/"
     },
+    {
+      id:7,
+      number: "07",
+      title: "Doctor Appointment Booking System",
+      category: "Full Stack Project",
+      tools: "React.js, Node.js, MongoDB, Express.js",
+      image: "/projects/docnow.png",
+      link: "https://docnow0.netlify.app/"
+    }
   ];
 
   // useGSAP(() => {
